@@ -1,0 +1,28 @@
+{
+    "configurations": [
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - InClass94",
+            "request": "launch",
+            "mainClass": "InClass94"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - HondaIkaika02",
+            "request": "launch",
+            "mainClass": "HondaIkaika02"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - hello",
+            "request": "launch",
+            "mainClass": "hello"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - Hello",
+            "request": "launch",
+            "mainClass": "Hello"
+        }
+    ]
+}
