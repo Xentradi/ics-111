@@ -2,6 +2,18 @@
     "configurations": [
         {
             "type": "java",
+            "name": "CodeLens (Launch) - InClass911",
+            "request": "launch",
+            "mainClass": "InClass911"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - InClass99",
+            "request": "launch",
+            "mainClass": "InClass99"
+        },
+        {
+            "type": "java",
             "name": "CodeLens (Launch) - InClass94",
             "request": "launch",
             "mainClass": "InClass94"
