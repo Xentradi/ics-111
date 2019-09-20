@@ -2,6 +2,30 @@
     "configurations": [
         {
             "type": "java",
+            "name": "CodeLens (Launch) - inClass918",
+            "request": "launch",
+            "mainClass": "inClass918"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - inClass93",
+            "request": "launch",
+            "mainClass": "inClass93"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - InClass916",
+            "request": "launch",
+            "mainClass": "InClass916"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - HondaIkaika03",
+            "request": "launch",
+            "mainClass": "HondaIkaika03"
+        },
+        {
+            "type": "java",
             "name": "CodeLens (Launch) - InClass911",
             "request": "launch",
             "mainClass": "InClass911"
