@@ -1,14 +1,27 @@
+import java.util.Scanner;
+import java.util.Arrays;
 public class Oct14 {
 	public static void main(String[] args) {
-		int numIndex = 4;
-		int[] myArray = new Int[numIndex];
+		int numStudents = 5;
+		double[] midtermGrades = new double[numStudents];
 
-		myArray[0] = 25;
-		myArray[1] = 50;
-		myArray[2] = 75;
-		myArray[3] = 100;
-		
-		int[] myArray2 = {1,2,3,4,5,6,7,8,9}
-		
+		Scanner input = new Scanner(System.in);
+
+		for (int i  = 0; i < midtermGrades.length; i++) {
+			System.out.println("Enter grade: ");
+			midtermGrades[i] = input.nextDouble();
+		}
+		String gradeString = Arrays.toString(midtermGrades);
+		gradeString = gradeString.replace("[", "");
+		gradeString = gradeString.replace("]", "");
+		System.out.println("The student grades are: " + gradeString );
+
+		double sumMidtermGrade = 0.0;
+		for (int i = 0; i < midtermGrades.length; i++) {
+			sumMidtermGrade += midtermGrades[i];
+		}
+		double avgMidtermGrade = sumMidtermGrade / midtermGrades.length;
+
+		System.out.println("Average: " + avgMidtermGrade);
 	}
 }
