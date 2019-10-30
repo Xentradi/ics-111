@@ -17,9 +17,12 @@ public class Oct14 {
 		System.out.println("The student grades are: " + gradeString );
 
 		double sumMidtermGrade = 0.0;
+		// total the grades
 		for (int i = 0; i < midtermGrades.length; i++) {
 			sumMidtermGrade += midtermGrades[i];
 		}
+		
+		// average the grades
 		double avgMidtermGrade = sumMidtermGrade / midtermGrades.length;
 
 		System.out.println("Average: " + avgMidtermGrade);
