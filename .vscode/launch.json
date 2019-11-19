@@ -2,6 +2,24 @@
     "configurations": [
         {
             "type": "java",
+            "name": "CodeLens (Launch) - HondaIkaika10",
+            "request": "launch",
+            "mainClass": "HondaIkaika10"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - HondaIkaika09",
+            "request": "launch",
+            "mainClass": "HondaIkaika09"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - School",
+            "request": "launch",
+            "mainClass": "School"
+        },
+        {
+            "type": "java",
             "name": "CodeLens (Launch) - HondaIkaika08",
             "request": "launch",
             "mainClass": "HondaIkaika08"
