@@ -5,8 +5,10 @@
  * 	2) Name
  * 	3) GPA
  */
+
+import java.text.MessageFormat;
 public class Student {
-	import java.text.MessageFormat;
+	
 	/* Declare the characteristics of a student */
 	private int id = 0;
 	private String name = "";
@@ -42,7 +44,7 @@ public class Student {
 	}
 
 
-	/* Set methods*/
+	/* Set methods */
 
 	public void setId(int newId) {
 		this.id = newId;
@@ -65,7 +67,7 @@ public class Student {
 	 * @return	output	A printable string of the instance variables.
 	*/
 	public String toString() {
-		String output = MessageFormat.format("id: {0}, name: {1}, gpa: {2}", this.id, this.name, this.id);
+		String output = MessageFormat.format("id: {0}, name: {1}, gpa: {2}", this.id, this.name, this.gpa);
 		return output;
 	}
 

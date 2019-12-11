@@ -9,5 +9,13 @@ public class School {
 		Student student1  = new Student("Ikaika", 1, 2.5);
 
 		System.out.println(student1);
+
+		try {
+			student1.setGpa(5);
+         System.out.println(student1);
+		}
+		catch (StudentException se) {
+			System.out.println(se.getMessage());
+		}
 	}
 }

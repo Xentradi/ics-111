@@ -1,5 +1,3 @@
-import java.math.BigInteger;
-
 /**
  * A class for modeling a textbook
  * The characteristics of a textbook are:
@@ -9,6 +7,7 @@ import java.math.BigInteger;
  * 	4) Publisher
  * 	5) Edition
  */
+import java.text.MessageFormat;
 public class Textbook {
 	/* Declare the characteristics of a textbook */
 	private String isbn = "";
